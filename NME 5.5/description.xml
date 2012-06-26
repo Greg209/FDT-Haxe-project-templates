@@ -47,8 +47,6 @@
 	
 	<contentCreation processFileExtensions="as,mxml,xml,launch,html,hx">
 		
-		<folder src="src" dest="${sourceFolder}" process="true" recursive="true" />
-		<folder src="bin" dest="${outputFolder}" process="true" recursive="true" />
 		<folder src="builder" dest="builder" process="true" recursive="true" />
 		<folder src="assets" dest="assets" process="false" recursive="true" />
 		
